@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0 auto;
+    font-family: 'Shizuru', cursive;  
+}
+
+#pro {
+    text-decoration: underline;
+    font-style: italic;
+    color: green;
+}
+
+.top-container {
+    padding-top: 200px;
+    position: relative;
+}
+
+.top-right-cloud {
+    position: absolute;
+    right: 300px;
+}
+
+.bottom-left-cloud {
+    position: absolute;
+    left: 300px;
+}
+
+.bottom-mountain {
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+
+.linkedin-avatar {
+        width: 300px;
+        height: 300px;
+        -webkit-border-radius: 300px;
+        -webkit-background-clip: padding-box;
+        -moz-border-radius: 300px;
+        -moz-background-clip: padding;
+        border-radius: 300px;
+        background-clip: padding-box;
+        margin: 7px 0 0 5px;
+        background-size: cover;
+        background-position: center center;
+}
+
+.middle-container {
+    background-color: hsl(189deg 100% 10%);
+    position: relative;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#footer-text {
+    font-family: 'Prompt', sans-serif;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.giphy-embed-right {
+    float: right;
+    margin-left: 30px;
+}
+
+.giphy-embed-left {
+    float: left;
+    margin-right: 30px;
+}
